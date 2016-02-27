@@ -30,5 +30,5 @@ Formula updates must include an updated SHA56 hash of the downloadable `.zip` or
 Formula which are overwritten during an automated build and deploy cycle should have their tap file updated to reflect the current hash or instalaltions from this tap will fail.
 
 
-[1][http://brew.sh/]
-[2][https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/Formula-Cookbook.md]
+[1]: http://brew.sh/
+[2]: https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/Formula-Cookbook.md
