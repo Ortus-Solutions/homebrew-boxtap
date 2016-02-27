@@ -9,7 +9,7 @@ Usage
 - To use this tap, run `brew tap ortus-solutions/boxtap` from your terminal.
 - To install a package from this tap:
   
-  `brew tap ortus-solutions/boxtap/[package]`
+  `brew install ortus-solutions/boxtap/[package]`
 
 - To pin this tap, prioritizing all packages in it above the official Homebrew packages:
 
