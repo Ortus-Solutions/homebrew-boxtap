@@ -7,9 +7,17 @@ Usage
 -----
 
 - To use this tap, run `brew tap ortus-solutions/boxtap` from your terminal.
-- To install a package from this tap, run `brew tap ortus-solutions/boxtap/[package]`
-- To pin this tap, prioritizing all packages in it above the official Homebrew packages, run `brew tap-pin ortus-solutions/boxtap`
-- To unpin, run `brew tap-unpin ortus-solutions/boxtap`
+- To install a package from this tap:
+  
+  `brew tap ortus-solutions/boxtap/[package]`
+
+- To pin this tap, prioritizing all packages in it above the official Homebrew packages:
+
+  `brew tap-pin ortus-solutions/boxtap`
+
+- To unpin and revert formulae priority to the official Hombrew repo:
+
+  `brew tap-unpin ortus-solutions/boxtap`
 
 
 Maintance and Additions
