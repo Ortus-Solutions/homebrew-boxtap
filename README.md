@@ -24,7 +24,7 @@ Usage
   `brew tap-unpin ortus-solutions/boxtap`
 
 
-Maintance and Additions
+Maintenance and Additions
 ----------------------
 
 Valid Homebrew formula may be created and added to the repository.  See the [Homebrew Formula Cookbook][2] for additional information on creating homebrew installation formulae.
