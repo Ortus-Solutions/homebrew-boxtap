@@ -7,15 +7,15 @@ Usage
 -----
 
 - To use this tap, run `brew tap ortus-solutions/boxtap` from your terminal.
-- To install a package from this tap:
+- To install a formula from this tap:
   
-  `brew install ortus-solutions/boxtap/[package]`
+  `brew install ortus-solutions/boxtap/[formula]`
 
 - To install the development version of a formula:
 
-  `brew install --devel ortus-solutions/boxtap/[package]`
+  `brew install --devel ortus-solutions/boxtap/[formula]`
 
-- To pin this tap, prioritizing all packages in it above the official Homebrew packages:
+- To pin this tap, prioritizing all formula in it above the official Homebrew versions:
 
   `brew tap-pin ortus-solutions/boxtap`
 
