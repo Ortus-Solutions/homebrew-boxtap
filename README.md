@@ -1,7 +1,7 @@
 Ortus Solutions Homebrew Tap
 ============================
 
-This is the Ortus Solutions tap repository for Box products which may be installed using the OSX [Homebrew][1] package manager.  It allows the ability to install and test homebrew installation packages.  This tap may be pinned to override the upstream source used in [Homebrew][1] installations.
+This is the Ortus Solutions tap repository for Box products, which may be installed using the OSX [Homebrew][1] package manager.  It allows the ability to install and test homebrew installation packages.  This tap may be pinned to override the upstream source used in [Homebrew][1] installations.
 
 Usage
 -----
