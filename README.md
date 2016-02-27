@@ -27,7 +27,7 @@ Valid Homebrew formula may be created and added to the repository.  See the [Hom
 
 Formula updates must include an updated SHA256 hash of the downloadable `.zip` or `.tgz` package.  
 
-Formula which are overwritten during an automated build and deploy cycle should have their tap file updated to reflect the current hash or instalaltions from this tap will fail.
+Formula which are overwritten during an automated build and deploy cycle should have their tap file updated to reflect the current hash or installations from this tap will fail.
 
 
 [1]: http://brew.sh/
