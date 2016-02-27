@@ -11,6 +11,10 @@ Usage
   
   `brew install ortus-solutions/boxtap/[package]`
 
+- To install the development version of a formula:
+
+  `brew install --devel ortus-solutions/boxtap/[package]`
+
 - To pin this tap, prioritizing all packages in it above the official Homebrew packages:
 
   `brew tap-pin ortus-solutions/boxtap`
