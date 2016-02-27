@@ -25,7 +25,7 @@ Maintance and Additions
 
 Valid Homebrew formula may be created and added to the repository.  See the [Homebrew Formula Cookbook][2] for additional information on creating homebrew installation formulae.
 
-Formula updates must include an updated SHA56 hash of the downloadable `.zip` or `.tgz` package.  
+Formula updates must include an updated SHA256 hash of the downloadable `.zip` or `.tgz` package.  
 
 Formula which are overwritten during an automated build and deploy cycle should have their tap file updated to reflect the current hash or instalaltions from this tap will fail.
 
