@@ -6,7 +6,7 @@ class Commandbox < Formula
 
   devel do
     url "http://integration.stg.ortussolutions.com/artifacts/ortussolutions/commandbox/3.1.0/commandbox-bin-3.1.0.zip"
-    sha256 "0aff6fbf8c2012165dd383b2b852c9a0698a7b8ab1a7aae317c5df73f5573f5e"
+    sha256 "feb20b6d8ef8f6c6bdb8e493da7eb685a27c00403321d0baa427bc0050d026d7"
   end
 
   bottle :unneeded
