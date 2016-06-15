@@ -2,11 +2,11 @@ class Commandbox < Formula
   desc "CFML embedded server, package manager, and app scaffolding tools"
   homepage "http://www.ortussolutions.com/products/commandbox"
   url "http://downloads.ortussolutions.com/ortussolutions/commandbox/3.1.1/commandbox-bin-3.1.1.zip"
-  sha256 "b5f821f5c327f5387a7cdf20855510fe39c1770dd2f0f383c4576519bae3d5d9"
+  sha256 "050bb737db3033a7ae8d47f2e5a973583963328c7ed1c3e1ab7b1191c609ac60"
 
   devel do
     url "http://integration.stg.ortussolutions.com/artifacts/ortussolutions/commandbox/3.1.1/commandbox-bin-3.1.1.zip"
-    sha256 "feb20b6d8ef8f6c6bdb8e493da7eb685a27c00403321d0baa427bc0050d026d7"
+    sha256 "050bb737db3033a7ae8d47f2e5a973583963328c7ed1c3e1ab7b1191c609ac60"
   end
 
   bottle :unneeded
