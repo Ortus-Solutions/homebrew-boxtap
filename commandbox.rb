@@ -15,7 +15,7 @@ class Commandbox < Formula
 
   resource "apidocs" do
     url "http://downloads.ortussolutions.com/ortussolutions/commandbox/3.1.1/commandbox-apidocs-3.1.1.zip"
-    sha256 "3a1507ae40740f9e96c3d4d87e218a1d3e8feff35072f19ea69465c3676ab59f"
+    sha256 "0495a4055582b4278de73a6edaa6526b7acf13daafcbe7bc65c67f97031edd93"
   end
 
   def install
