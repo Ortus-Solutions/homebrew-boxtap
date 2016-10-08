@@ -6,8 +6,8 @@ class Commandbox < Formula
   version "3.2.0"
 
   devel do
-    url "http://integration.stg.ortussolutions.com/artifacts/ortussolutions/commandbox/3.3.0-rc/commandbox-bin-3.3.0-rc.zip?build=00473"
-    sha256 "12f82588333ab9d661e10d0a4848d0bc8b85d04b21ce7938350fb7c37a32e698"
+    url "http://integration.stg.ortussolutions.com/artifacts/ortussolutions/commandbox/3.3.0-rc/commandbox-bin-3.3.0-rc.zip?build=00474"
+    sha256 "36afd6b551c0ff163ea24f9c70bfc78a10b714fe1cefec79b734f546002788be"
     version "3.3.0-rc"
   end
 
