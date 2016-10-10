@@ -3,12 +3,10 @@ class Commandbox < Formula
   homepage "https://www.ortussolutions.com/products/commandbox"
   url "http://downloads.ortussolutions.com/ortussolutions/commandbox/3.3.0/commandbox-bin-3.3.0.zip"
   sha256 "72091365a6babbf0410db22affb1c03879195b8a18f8af4bf97e988fe68b9c02"
-  version "3.3.0"
 
   devel do
-    url "http://integration.stg.ortussolutions.com/artifacts/ortussolutions/commandbox/3.3.1/commandbox-bin-3.3.1.zip?build=00483"
-    sha256 "80d880ee407a1b9b63b4c03ba3ffddd98c28320c4d71a39772003a0101f4e1f5"
-    version "3.3.1"
+    url "http://integration.stg.ortussolutions.com/artifacts/ortussolutions/commandbox/3.3.1/commandbox-bin-3.3.1.zip?build=00484"
+    sha256 "48da9595d4ba5eb96908339079723f03727b837aa36f5b57fcd93854d93674a2"
   end
 
   bottle :unneeded
