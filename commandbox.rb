@@ -1,12 +1,12 @@
 class Commandbox < Formula
   desc "CFML embedded server, package manager, and app scaffolding tools"
   homepage "https://www.ortussolutions.com/products/commandbox"
-  url "http://downloads.ortussolutions.com/ortussolutions/commandbox/3.5.0/commandbox-bin-3.5.0.zip"
-  sha256 "9477d83616124833f3e95b9e47391c4e61cfe4197b7d02d2d83b92e85219702c"
+  url "http://downloads.ortussolutions.com/ortussolutions/commandbox/3.6.0/commandbox-bin-3.6.0.zip"
+  sha256 "85c4336b50385eaf0194f1ff55bd79659f36a516ab0f2434c054a474b48ee7bb"
 
   devel do
-    url "http://integration.stg.ortussolutions.com/artifacts/ortussolutions/commandbox/3.6.0-snapshot/commandbox-bin-3.6.0-snapshot.zip?build=00643"
-    sha256 "01a5c177e5b53960c42b805624d4ae9af4bcb76904b40f4f238ed76ee46a051b"
+    url "http://integration.stg.ortussolutions.com/artifacts/ortussolutions/commandbox/3.6.0/commandbox-bin-3.6.0.zip?build=00644"
+    sha256 "85c4336b50385eaf0194f1ff55bd79659f36a516ab0f2434c054a474b48ee7bb"
   end
 
   bottle :unneeded
@@ -14,8 +14,8 @@ class Commandbox < Formula
   depends_on :java => "1.7+"
 
   resource "apidocs" do
-    url "http://downloads.ortussolutions.com/ortussolutions/commandbox/3.5.0/commandbox-apidocs-3.5.0.zip"
-    sha256 "32b86a55b89a58bb732a1630c290f99e6ae53e97eef808cf99b207a70cc0c1d9"
+    url "http://downloads.ortussolutions.com/ortussolutions/commandbox/3.6.0/commandbox-apidocs-3.6.0.zip"
+    sha256 "bfb52645ed4302c65c53c589793511c36102f6a43131796bb82596552f03d2a1"
   end
 
   def install
