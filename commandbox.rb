@@ -5,8 +5,8 @@ class Commandbox < Formula
   sha256 "43ddb16d221b5e9e7165349195c3b1c3714b28710ba21d88d4cb6ad650213861"
 
   devel do
-    url "https://downloads.ortussolutions.com/ortussolutions/commandbox/4.9.0-alpha/commandbox-bin-4.9.0-alpha.zip?build=00064"
-    sha256 "aea9e25e58c446075c0fa1888045df167a01fb12980a6d4993e89fd6353a1b64"
+    url "https://downloads.ortussolutions.com/ortussolutions/commandbox/4.9.0-alpha/commandbox-bin-4.9.0-alpha.zip?build=00065"
+    sha256 "422d62917525a5fcc18006d95f6d2ad64e6b3653e78a43424e39adb8aa99cd3c"
   end
 
   bottle :unneeded
