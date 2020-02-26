@@ -5,13 +5,13 @@ class Commandbox < Formula
   sha256 "43ddb16d221b5e9e7165349195c3b1c3714b28710ba21d88d4cb6ad650213861"
 
   devel do
-    url "https://downloads.ortussolutions.com/ortussolutions/commandbox/5.0.0-RC.1/commandbox-bin-5.0.0-RC.1.zip?build=00123"
-    sha256 "8365f823c34aa3d7ee7e355fd5d19e299d124f43dbee37c318d140662b5a5463"
+    url "https://downloads.ortussolutions.com/ortussolutions/commandbox/5.0.0-RC.1/commandbox-bin-5.0.0-RC.1.zip?build=00124"
+    sha256 "1bcf90ed674a5e8823d4096840a6eda478a7f266b8ba407e9a10366861295ad0"
   end
 
   bottle :unneeded
 
-  depends_on :java => "1.8"
+  depends_on java: '>= 8'
 
   resource "apidocs" do
     url "https://downloads.ortussolutions.com/ortussolutions/commandbox/4.8.0/commandbox-apidocs-4.8.0.zip"
@@ -20,7 +20,6 @@ class Commandbox < Formula
 
   def install
     libexec.install "box"
-    (bin/"box").write_env_script libexec/"box", Language::Java.java_home_env("1.8")
     doc.install resource("apidocs")
   end
 
