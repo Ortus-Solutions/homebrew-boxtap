@@ -5,13 +5,13 @@ class Commandbox < Formula
   sha256 "cd5a903cc4874930bfd9437e46240f7a980ff7f28c1e136299dc525c47d5ff28"
 
   devel do
-    url "https://downloads.ortussolutions.com/ortussolutions/commandbox/5.1.1-alpha/commandbox-bin-5.1.1-alpha.zip?build=00187"
-    sha256 "b2e1438091a7a5b3c6b13fa83a9b4e4bd38c8d7bfd8f4369139cd44db2fc645e"
+    url "https://downloads.ortussolutions.com/ortussolutions/commandbox/5.1.1-alpha/commandbox-bin-5.1.1-alpha.zip?build=00188"
+    sha256 "38168d8e2cd8cc96fddcee42cbbfb5e2088b1dd8619bba5a192f23f3884af9f5"
   end
 
   bottle :unneeded
 
-  depends_on :java => "1.8+"
+  depends_on "openjdk"
 
   resource "apidocs" do
     url "https://downloads.ortussolutions.com/ortussolutions/commandbox/5.1.0/commandbox-apidocs-5.1.0.zip"
