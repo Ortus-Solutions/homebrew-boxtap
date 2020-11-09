@@ -9,19 +9,19 @@ Usage
 - To use this tap, run `brew tap ortus-solutions/boxtap` from your terminal.
 - To install a formula from this tap:
   
-  `brew install ortus-solutions/boxtap/[formula]`
+  `brew install ortus-solutions/homebrew-boxtap/[formula]`
 
 - To install the development version of a formula:
 
-  `brew install --devel ortus-solutions/boxtap/[formula]`
+  `brew install --head ortus-solutions/homebrew-boxtap/[formula]`
 
 - To pin this tap, prioritizing all formula in it above the official Homebrew versions:
 
-  `brew tap-pin ortus-solutions/boxtap`
+  `brew tap-pin ortus-solutions/homebrew-boxtap`
 
 - To unpin and revert formulae priority to the official Hombrew repo:
 
-  `brew tap-unpin ortus-solutions/boxtap`
+  `brew tap-unpin ortus-solutions/homebrew-boxtap`
 
 
 Maintenance and Additions
