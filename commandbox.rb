@@ -6,8 +6,8 @@ class Commandbox < Formula
   license "LGPL-3.0-or-later"
 
   head do
-    url "https://downloads.ortussolutions.com/ortussolutions/commandbox/5.3.0-alpha/commandbox-bin-5.3.0-alpha.zip?build=00047"
-    sha256 "4face3ce920743607a6f7718bbe0207952502679cb2b0fa48860753ffd69933e"
+    url "https://downloads.ortussolutions.com/ortussolutions/commandbox/5.3.0-alpha/commandbox-bin-5.3.0-alpha.zip?build=00048"
+    sha256 "8d8f8b6ddb9ce6f4488f43d8c2323f10e680fc1393a1d0f929c4a60c8d3f6b7b"
   end
 
   livecheck do
