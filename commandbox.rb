@@ -6,13 +6,17 @@ class Commandbox < Formula
   license "LGPL-3.0-or-later"
 
   head do
-    url "https://downloads.ortussolutions.com/ortussolutions/commandbox/5.4.0-alpha/commandbox-bin-5.4.0-alpha.zip?build=00394"
-    sha256 "a585e7702489083de30f77502af5f451b5693b190b2fc5201997b98aa9d56a3e"
+    url "https://downloads.ortussolutions.com/ortussolutions/commandbox/5.4.0-alpha/commandbox-bin-5.4.0-alpha.zip?build=00395"
+    sha256 "0f4fe7b4fdd874a3769ae943b4c98164cf908151dec8e69e3d1a11c89d565ebb"
   end
 
   livecheck do
     url :homepage
     regex(/Download CommandBox v?(\d+(?:\.\d+)+)/i)
+  end
+
+  bottle do
+    sha256 cellar: :any_skip_relocation, all: "45b01d0263bf8842d6b060ed23202a77ab6b33d2a3c1c2a89be80eb4c50324ba"
   end
 
   depends_on "openjdk"
