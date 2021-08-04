@@ -6,8 +6,8 @@ class Commandbox < Formula
   license "LGPL-3.0-or-later"
 
   head do
-    url "https://downloads.ortussolutions.com/ortussolutions/commandbox/5.4.0-alpha/commandbox-bin-5.4.0-alpha.zip?build=00417"
-    sha256 "ef7b6edc718999677b24d480f70ad7ec8eb6a3f36df62ce5d964836660d713e0"
+    url "https://downloads.ortussolutions.com/ortussolutions/commandbox/5.4.0-alpha/commandbox-bin-5.4.0-alpha.zip?build=00418"
+    sha256 "81584784397f52b2eaaf6669acf3c427616b34a2edc13f3e19f329aae8e02c18"
   end
 
   livecheck do
@@ -28,7 +28,7 @@ class Commandbox < Formula
 
   def install
     (libexec/"bin").install "box"
-    (bin/"box").write_env_script libexec/"bin/box", Language::Java.overridable_java_home_env
+    (bin/"box").write_env_script libexec/"bin/box", Language::Java.java_home_env("11")
     doc.install resource("apidocs")
   end
 
