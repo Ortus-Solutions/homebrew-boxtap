@@ -4,10 +4,11 @@ class Commandbox < Formula
   url "https://downloads.ortussolutions.com/ortussolutions/commandbox/5.4.0/commandbox-bin-5.4.0.zip"
   sha256 "0be40d16eee995c7b7c51b9d99be0ba0326647e3f546c71cf0ca94c53c43612d"
   license "LGPL-3.0-or-later"
+  revision 1
 
   head do
-    url "https://downloads.ortussolutions.com/ortussolutions/commandbox/5.5.0-alpha/commandbox-bin-5.5.0-alpha.zip?build=00434"
-    sha256 "29ed2e24fecf5c6b91e37a282dc1fc63a26ef41ecd368bf69d8940615a92f027"
+    url "https://downloads.ortussolutions.com/ortussolutions/commandbox/5.5.0-alpha/commandbox-bin-5.5.0-alpha.zip?build=00435"
+    sha256 "8d6b861b832555fd020d2955339d6db6e14c0d4540b110ec54cad57b7236f596"
   end
 
   livecheck do
@@ -19,7 +20,8 @@ class Commandbox < Formula
     sha256 cellar: :any_skip_relocation, all: "45b01d0263bf8842d6b060ed23202a77ab6b33d2a3c1c2a89be80eb4c50324ba"
   end
 
-  depends_on "openjdk"
+  # not yet compatible with Java 17 on ARM
+  depends_on "openjdk@11"
 
   resource "apidocs" do
     url "https://downloads.ortussolutions.com/ortussolutions/commandbox/5.4.0/commandbox-apidocs-5.4.0.zip"
