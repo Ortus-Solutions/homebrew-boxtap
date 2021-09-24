@@ -7,8 +7,8 @@ class Commandbox < Formula
   revision 1
 
   head do
-    url "https://downloads.ortussolutions.com/ortussolutions/commandbox/5.5.0-alpha/commandbox-bin-5.5.0-alpha.zip?build=00444"
-    sha256 "8d8863ddc7c544f4112d2a026bf0ad010656bd2b1ba55cba86f6a5575b88696a"
+    url "https://downloads.ortussolutions.com/ortussolutions/commandbox/5.5.0-alpha/commandbox-bin-5.5.0-alpha.zip?build=00445"
+    sha256 "e57eb768c7718e9f7698663ca784ab77372631c1525e1b3bc4c41c35db08ff1a"
   end
 
   livecheck do
