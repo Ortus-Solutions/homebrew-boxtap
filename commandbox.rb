@@ -4,11 +4,10 @@ class Commandbox < Formula
   url "https://downloads.ortussolutions.com/ortussolutions/commandbox/5.4.1/commandbox-bin-5.4.1.zip"
   sha256 "7821675ba886db995f1624aa8d991b9b5e303bd7a998ea415d1aa5bee5d3eff3"
   license "LGPL-3.0-or-later"
-  revision 1
 
   head do
-    url "https://downloads.ortussolutions.com/ortussolutions/commandbox/5.5.0-alpha/commandbox-bin-5.5.0-alpha.zip?build=00447"
-    sha256 "1fa8a304fcec1351b7b7e0de64a14809d42f878fc07e2aa003f8fb2e1f8844b9"
+    url "https://downloads.ortussolutions.com/ortussolutions/commandbox/5.5.0-alpha/commandbox-bin-5.5.0-alpha.zip?build=00448"
+    sha256 "008307932c6f148a458aacfd84cfab71cd532c1fa658db026fd9c18b97a68155"
   end
 
   livecheck do
