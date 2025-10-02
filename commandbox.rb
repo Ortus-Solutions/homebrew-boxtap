@@ -1,13 +1,13 @@
 class Commandbox < Formula
-  desc "CFML embedded server, package manager, and app scaffolding tools"
+  desc "CLI, Package Manager, and Embedded Server for BoxLang, Java, and CFML applications"
   homepage "https://www.ortussolutions.com/products/commandbox"
   url "https://downloads.ortussolutions.com/ortussolutions/commandbox/6.2.1/commandbox-bin-6.2.1.zip"
   sha256 "c8f4c9befda31046fd535542024b21ae121ce12fa517f6c1405f88b432ce1f1a"
   license "Apache-2.0"
 
   head do
-    url "https://downloads.ortussolutions.com/ortussolutions/commandbox/6.3.0-alpha/commandbox-bin-6.3.0-alpha.zip?build=00840"
-    sha256 "c1ccd9f4b4c102221bed00207f56c0a80f83b1774d9d79d224c6e7e91e66b318"
+    url "https://downloads.ortussolutions.com/ortussolutions/commandbox/6.3.0-alpha/commandbox-bin-6.3.0-alpha.zip?build=00841"
+    sha256 "c73afc97bc92d6c237e974ce5e4769e2a5f7eb04999c9ec1f9b3801378e4912e"
   end
 
   livecheck do
