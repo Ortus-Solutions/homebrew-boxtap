@@ -6,8 +6,8 @@ class Commandbox < Formula
   license "Apache-2.0"
 
   head do
-    url "https://downloads.ortussolutions.com/ortussolutions/commandbox/6.4.0-alpha/commandbox-bin-6.4.0-alpha.zip?build=00854"
-    sha256 "25308d9d9581992481dae839e4b650ed776e441cde06d9c1abf7b509dc654b41"
+    url "https://downloads.ortussolutions.com/ortussolutions/commandbox/6.4.0-alpha/commandbox-bin-6.4.0-alpha.zip?build=00855"
+    sha256 "97e62c1b7464087ee54fdf7df11e49cdd3074d6e638db6a04e349209d9eb4cfd"
   end
 
   livecheck do
